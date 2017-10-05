@@ -77,6 +77,6 @@
         </div>
     </div>
 
-    <script src="assets/scripts/App-5ceb708257.js"></script>
+<!-- <script src="<?php bloginfo( 'template_url' ); ?>/js/app.js"></script> -->
 
 <?php get_footer(); ?>
