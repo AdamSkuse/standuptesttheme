@@ -14,13 +14,23 @@
         <div class="panel-wrapper">
             <div class="panel about-panel">
               <h3>About</h3>
+              <!-- 
               <p>UK-born me first took to the stage in a purposefully comedic capacity in 2013 while living in Shanghai, China. Within 6 months of starting out, he'd <a href="http://www.tavistock-today.co.uk/article.cfm?id=4227&headline=Comedian%20Adam%20stands%20up%20and%20gets%20heard%20in%20competition&sectionIs=news&searchyear=2013">won</a> the AudioGo Best New UK Comic Award.</p><br>
 
               <p>Since then, he (me) has performed across Asia and the UK as a feature act and headliner. In 2016 he took his first hour to the Edinburgh Fringe Festival.</p><br>
 
               <p>Adam (I) recently moved to Los Angeles, where he also writes, podcasts and assimilates into the local culture.</p>
-
-
+                -->
+              <?php if( have_posts() ) : ?>
+                <?php while( have_posts() ) : the_post() ?>
+                  <h2><a href='<?php the_permalink() ?>'><?php the_title() ?></a></h2>
+                  <div class="content">
+                    <?php the_content() ?>
+                  </div>
+                <?php endwhile ?>
+              <?php else : ?>
+                <p>Oh No, there are no posts!</p>
+              <?php endif ?>
             </div>
             <div class="panel video-panel">
                 <h3>Videos</h3>
