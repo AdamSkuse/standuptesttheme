@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>AdamSkuse ... com</title>
-  <meta name="AdamSkuse.com" content="AdamSkuse.com">
-  <meta name="author" content="Adam">
-
-  <link href="<?php bloginfo( 'stylesheet_url' ); ?>" rel="stylesheet" media="all" type="text/css" />
-
-  <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer" rel="stylesheet">
-  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
-  <script src="https://use.fontawesome.com/5cfe35cd23.js"></script>
-</head>
-
-<body>
+<?php get_header(); ?>
     <div class="fixed-header">
         <div class="fixed-header__title">
             <h1>Adam Skuse ... com</h1>
@@ -94,7 +78,5 @@
     </div>
 
     <script src="assets/scripts/App-5ceb708257.js"></script>
-</body>
 
-</html>
-
+<?php get_footer(); ?>
