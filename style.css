@@ -458,8 +458,8 @@ template {
 
 @font-face {
     font-family: 'A-Love-of-Thunder';
-    src:url('../../assets/fonts/A-Love-of-Thunder.ttf.woff') format('woff'),
-        url('../../assets/fonts/A-Love-of-Thunder.ttf.svg#A-Love-of-Thunder') format('svg');
+    src:url('fonts/A-Love-of-Thunder.ttf.woff') format('woff'),
+        url('fonts/A-Love-of-Thunder.ttf.svg#A-Love-of-Thunder') format('svg');
     font-weight: normal;
     font-style: normal;
 }

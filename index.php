@@ -8,7 +8,6 @@
 
     <div class="main-section">
         <div class="main-section__image">
-         <!-- <img src="assets/images/pilot.jpg" alt="pilot" class="main-image" width="650px"></img> -->
             <img alt="" src="<?php bloginfo( 'template_url' ); ?>/images/pilot.jpg" class="main-image" width="650px"></img>
         </div>
 
@@ -41,21 +40,21 @@
             <div class="panel podcasts-panel">
               <h3>Podcasts</h3>
                 <div class="podcast__logo">
-                  <a href="http://www.bestlaidplanspodcast.podbean.com/" target="_blank"><img src="assets/images/podcast-1.jpg" alt="Best Laid Plans logo"></a>
+                  <a href="http://www.bestlaidplanspodcast.podbean.com/" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/podcast-1.jpg" alt="Best Laid Plans logo"></a>
                 </div>
                 <div class="podcast__description">
                   <h4>Best Laid Plans</h4>
                   <p>In which I chat with entrepreneurs about their experiences setting up and running their businesses.</p>
                 </div>
                 <div class="podcast__logo">
-                  <a href="http://www.polymorphself.com/" target="_blank"><img src="assets/images/podcast-2.jpg" alt="Polymorphself logo"></a>
+                  <a href="http://www.polymorphself.com/" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/podcast-2.jpg" alt="Polymorphself logo"></a>
                 </div>
                 <div class="podcast__description">
                   <h4>Polymorphself</h4>
                   <p>I played a magical elf in this Dungeons &amp; Dragons podcast until I was sucked hard into the void in episode 32. Spoiler.</p>
                 </div>
                 <div class="podcast__logo">
-                  <a href="http://kurtdunsing.squarespace.com/ltaboutg/" target="_blank"><img src="assets/images/podcast-3.jpg" alt="LTAG logo"></a>
+                  <a href="http://kurtdunsing.squarespace.com/ltaboutg/" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/podcast-3.jpg" alt="LTAG logo"></a>
                 </div>
                 <div class="podcast__description">
                   <h4>Let's Talk About Greg</h4>
