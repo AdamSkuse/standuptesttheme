@@ -13,3 +13,10 @@
 </head>
 
   <body <?php body_class(); ?>>
+
+    <div class="fixed-header">
+        <div class="fixed-header__title">
+            <h1>Adam Skuse ... com</h1>
+            <p>The official real 100% actual website of Adam Skuse, standupper and podcasterteer</p>
+        </div>
+    </div>

@@ -1,14 +1,8 @@
 <?php get_header(); ?>
-    <div class="fixed-header">
-        <div class="fixed-header__title">
-            <h1>Adam Skuse ... com</h1>
-            <p>The official real 100% actual website of Adam Skuse, standupper and podcasterteer</p>
-        </div>
-    </div>
 
     <div class="main-section">
         <div class="main-section__image">
-            <img alt="" src="<?php bloginfo( 'template_url' ); ?>/images/pilot.jpg" class="main-image" width="650px"></img>
+            <img class="main-image" alt="" src="<?php bloginfo( 'template_url' ); ?>/images/pilot.jpg"></img>
         </div>
 
         <div class="panel-wrapper">
@@ -79,12 +73,6 @@
         </div>
     </div>
 
-    <div class="fixed-footer">
-        <nav><ul><li id="home">Home</li><li id="about">About</li><li id="video">Video</li><li id="podcasts">Podcasts</li><li id="webcam">Nude-webcam</li></ul></nav>
-        <div class="social-icons">
-          <a href="https://www.youtube.com/user/MonadicFlaccidity/" target="_blank"><i class="fa fa-youtube fa-lg" aria-hidden="true"></i></a><a href="https://twitter.com/AdamSkuse" target="_blank"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
-        </div>
-    </div>
 
 <!-- <script src="<?php bloginfo( 'template_url' ); ?>/js/app.js"></script> -->
 
